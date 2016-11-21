@@ -1,5 +1,14 @@
 # Scripts and configuration
 
+- [Scripts and configuration](#)
+	- [Shell](#)
+	- [Git](#)
+	- [Editores](#)
+		- [Config. general](#)
+		- [Atom](#)
+
+<small>(TOC generated with http://doctoc.herokuapp.com/)</small>
+
 ## Shell
 
 **`.bashrc`**
