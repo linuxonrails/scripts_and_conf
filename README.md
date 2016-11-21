@@ -1,13 +1,10 @@
 # Scripts and configuration
 
-- [Scripts and configuration](#)
-	- [Shell](#)
-	- [Git](#)
-	- [Editores](#)
-		- [Config. general](#)
-		- [Atom](#)
-
-<small>(TOC generated with http://doctoc.herokuapp.com/)</small>
+- [Shell](#shell)
+- [Git](#git)
+- [Editores](#editores)
+	- [Config. general](#config-general)
+	- [Atom](#atom)
 
 ## Shell
 
