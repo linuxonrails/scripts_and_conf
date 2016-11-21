@@ -25,6 +25,8 @@ PS1="${debian_chroot:+($debian_chroot)}\[\033[01;36m\]\u@\h\[\033[00m\]:\[\033[0
 https://githowto.com/aliases
 
 ```
+[credential]
+  helper = cache --timeout=360000
 [alias]
   co = checkout
   ci = commit
@@ -34,3 +36,33 @@ https://githowto.com/aliases
   type = cat-file -t
   dump = cat-file -p
 ```
+
+<hr>
+
+**`.editorconfig`
+
+# editorconfig.org
+
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_size = 2
+indent_style = space
+insert_final_newline = true
+max_line_length = 120
+trim_trailing_whitespace = true
+
+[*.md]
+max_line_length = 0
+trim_trailing_whitespace = false
+
+[*.js]
+max_line_length = 120
+
+[*.jsx]
+max_line_length = 120
+
+[COMMIT_EDITMSG]
+max_line_length = 0
