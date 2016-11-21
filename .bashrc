@@ -1,8 +1,3 @@
-# Scripts and configuration
-
-**`.bashrc`**
-
-```bash
 # Add the next lines in ~/.bashrc (when you have git installed):
 parse_git_branch() {
   if ! git rev-parse --git-dir > /dev/null 2>&1; then
@@ -12,25 +7,3 @@ parse_git_branch() {
   echo "[$git_branch]"
 }
 PS1="${debian_chroot:+($debian_chroot)}\[\033[01;36m\]\u@\h\[\033[00m\]:\[\033[01;32m\]\w\[\033[00m\]\[\033[01;31m\]\$(parse_git_branch)\[\033[00m\]$ "
-```
-
-<hr>
-
-**`.bash_aliases`**
-
-<hr>
-
-**`.gitconfig`**
-
-https://githowto.com/aliases
-
-```
-[alias]
-  co = checkout
-  ci = commit
-  st = status
-  br = branch
-  lo = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
-  type = cat-file -t
-  dump = cat-file -p
-```
