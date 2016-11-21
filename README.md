@@ -6,8 +6,6 @@
 	- [Config. general](#config-general)
 	- [Atom](#atom)
 
-<small>(TOC generated with http://doctoc.herokuapp.com/)</small>
-
 ## Shell
 
 **`.bashrc`**
