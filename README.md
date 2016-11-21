@@ -1,11 +1,10 @@
 # Scripts and configuration
 
-- [Scripts and configuration](#)
-	- [Shell](#)
-	- [Git](#)
-	- [Editores](#)
-		- [Config. general](#)
-		- [Atom](#)
+- [Shell](#shell)
+- [Git](#git)
+- [Editores](#editores)
+	- [Config. general](#config-general)
+	- [Atom](#atom)
 
 <small>(TOC generated with http://doctoc.herokuapp.com/)</small>
 
@@ -48,7 +47,7 @@ https://githowto.com/aliases
   unstage = reset HEAD --
   last = log -1 HEAD
   lo = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
-  lgb = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%reset%n' --abbrev-commit --date=relative --branches
+  lgb = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset%n' --abbrev-commit --date=relative --branches
   type = cat-file -t
   dump = cat-file -p
 ```
