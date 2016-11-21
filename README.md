@@ -1,5 +1,7 @@
 # Scripts and configuration
 
+## Shell
+
 **`.bashrc`**
 
 ```bash
@@ -14,11 +16,13 @@ parse_git_branch() {
 PS1="${debian_chroot:+($debian_chroot)}\[\033[01;36m\]\u@\h\[\033[00m\]:\[\033[01;32m\]\w\[\033[00m\]\[\033[01;31m\]\$(parse_git_branch)\[\033[00m\]$ "
 ```
 
-<hr>
-
 **`.bash_aliases`**
 
+...
+
 <hr>
+
+## Git
 
 **`.gitconfig`**
 
@@ -42,9 +46,14 @@ https://githowto.com/aliases
 
 <hr>
 
-**`.editorconfig`
+## Editores
 
-# editorconfig.org
+### Config. general
+
+**`.editorconfig`**
+
+```
+editorconfig.org
 
 root = true
 
@@ -69,12 +78,15 @@ max_line_length = 120
 
 [COMMIT_EDITMSG]
 max_line_length = 0
+```
 
 <hr>
 
+### Atom
+
 **Atom packages:**
 
-Algunas las comento porque son interesantes pero actualmente no las utilizo.
+Algunos están comentados porque aunque son interesantes actualmente no los utilizo:
 
 ```bash
 # Seti: Extensión con tema y sintaxis específica
