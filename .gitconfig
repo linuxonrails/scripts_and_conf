@@ -1,5 +1,15 @@
+[core]
+	editor = vim
+	pager = less -x1,3
+[color]
+	ui = true
+[user]
+	name = myusername
+	email = myuseremail
+[push]
+	default = simple
 [credential]
-  helper = cache --timeout=360000
+	helper = cache --timeout=360000
 [alias]
   co = checkout
   ci = commit

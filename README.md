@@ -3,8 +3,9 @@
 - [Shell](#shell)
 - [Git](#git)
 - [Editores](#editores)
-	- [Config. general](#config-general)
-	- [Atom](#atom)
+  - [Config. general](#config-general)
+  - [Atom](#atom)
+  - [Vim](#vim)
 
 ## Shell
 
@@ -35,6 +36,16 @@ PS1="${debian_chroot:+($debian_chroot)}\[\033[01;36m\]\u@\h\[\033[00m\]:\[\033[0
 https://githowto.com/aliases
 
 ```
+[core]
+  editor = vim
+  pager = less -x1,3
+[color]
+  ui = true
+[user]
+  name = myusername
+  email = myuseremail
+[push]
+  default = simple
 [credential]
   helper = cache --timeout=360000
 [alias]
@@ -151,4 +162,17 @@ apm install file-type-icons
 # jumpy: Saltar entre palabras y lineas en el editor mediante: shift+enter y las dos primeras letras del lugar al que se quiera saltar:
 apm install jumpy # https://atom.io/packages/jumpy
 
+```
+
+<hr>
+
+### vim
+
+```
+if has("syntax")
+  syntax on
+endif
+
+set number
+set tabstop=2
 ```
