@@ -128,6 +128,9 @@ apm install linter-eslint
 # linter-tslint: para TypeScript
 apm install linter-tslint
 
+# linter-jsonlint: para ficheros JSON
+apm install linter-jsonlint
+
 # autoclose-html: extensión para autocerrar tags, solo HTML :-( investigar como cerrar cualquier tag
 # apm install autoclose-html
 
