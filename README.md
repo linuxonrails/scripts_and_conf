@@ -6,6 +6,7 @@
   - [Config. general](#config-general)
   - [Atom](#atom)
   - [Vim](#vim)
+- [Gnome-shell](#gnome-shell)
 
 ## Shell
 
@@ -179,3 +180,17 @@ endif
 set number
 set tabstop=2
 ```
+## Gnome-shell
+
+### How to move window buttons to right in Ubuntu 16.04
+
+http://askubuntu.com/questions/764166/how-to-move-window-buttons-to-right-in-ubuntu-16-04
+
+```sh
+gsettings set org.gnome.desktop.wm.preferences button-layout ':minimize,maximize,close'
+```
+
+### Extensions
+
+https://extensions.gnome.org/extension/19/user-themes/
+https://extensions.gnome.org/extension/15/alternatetab/
