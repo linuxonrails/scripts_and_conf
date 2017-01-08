@@ -192,5 +192,5 @@ gsettings set org.gnome.desktop.wm.preferences button-layout ':minimize,maximize
 
 ### Extensions
 
-https://extensions.gnome.org/extension/19/user-themes/
-https://extensions.gnome.org/extension/15/alternatetab/
+- https://extensions.gnome.org/extension/19/user-themes/
+- https://extensions.gnome.org/extension/15/alternatetab/
