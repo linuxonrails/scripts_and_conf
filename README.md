@@ -7,6 +7,7 @@
   - [Atom](#atom)
   - [Vim](#vim)
 - [Gnome-shell](#gnome-shell)
+- [NPM](#npm)
 
 ## Shell
 
@@ -194,3 +195,10 @@ gsettings set org.gnome.desktop.wm.preferences button-layout ':minimize,maximize
 
 - https://extensions.gnome.org/extension/19/user-themes/
 - https://extensions.gnome.org/extension/15/alternatetab/
+
+## npm
+
+# No utilizar sudo con NPM para evitar problemas de permisos:
+# https://fettblog.eu/snippets/node.js/npm-without-sudo/
+npm config set prefix ~/npm
+export PATH="$PATH:$HOME/npm/bin" # en ~/.bashrc
