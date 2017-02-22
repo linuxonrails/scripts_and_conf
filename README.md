@@ -198,7 +198,11 @@ gsettings set org.gnome.desktop.wm.preferences button-layout ':minimize,maximize
 
 ## npm
 
+~/.bashrc
+
+```
 # No utilizar sudo con NPM para evitar problemas de permisos:
 # https://fettblog.eu/snippets/node.js/npm-without-sudo/
 npm config set prefix ~/npm
 export PATH="$PATH:$HOME/npm/bin" # en ~/.bashrc
+```
