@@ -167,6 +167,11 @@ apm install file-type-icons
 # jumpy: Saltar entre palabras y lineas en el editor mediante: shift+enter y las dos primeras letras del lugar al que se quiera saltar:
 apm install jumpy # https://atom.io/packages/jumpy
 
+# linter-flow 
+# https://github.com/AtomLinter/linter-flow
+npm install -g flow flow-bin
+flow init
+apm install linter-flow
 ```
 
 <hr>
