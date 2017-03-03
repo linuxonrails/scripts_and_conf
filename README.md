@@ -219,8 +219,13 @@ gsettings set org.gnome.desktop.wm.preferences button-layout ':minimize,maximize
 
 ### Extensions
 
-- https://extensions.gnome.org/extension/19/user-themes/
+- https://extensions.gnome.org/extension/820/minimum-workspaces/
 - https://extensions.gnome.org/extension/15/alternatetab/
+- https://extensions.gnome.org/extension/977/recent-items/
+- https://extensions.gnome.org/extension/826/suspend-button/
+- https://extensions.gnome.org/extension/8/places-status-indicator/
+- https://extensions.gnome.org/extension/7/removable-drive-menu/
+- https://extensions.gnome.org/extension/6/applications-menu/
 
 ## npm
 
