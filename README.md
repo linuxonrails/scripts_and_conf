@@ -193,6 +193,10 @@ apm install jumpy # https://atom.io/packages/jumpy
 npm install -g flow flow-bin
 flow init
 apm install linter-flow
+
+# React plugin 
+# https://atom.io/packages/react
+apm install react
 ```
 
 <hr>
