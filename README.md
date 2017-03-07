@@ -223,10 +223,11 @@ gsettings set org.gnome.desktop.wm.preferences button-layout ':minimize,maximize
 
 ### Extensions
 
-- https://extensions.gnome.org/extension/820/minimum-workspaces/
-- https://extensions.gnome.org/extension/15/alternatetab/
-- https://extensions.gnome.org/extension/977/recent-items/
-- https://extensions.gnome.org/extension/826/suspend-button/
+- https://extensions.gnome.org/extension/921/multi-monitors-add-on/  escritorios virtuales en varios monitores
+- https://extensions.gnome.org/extension/820/minimum-workspaces/ mínimo de escritorios permanente
+- https://extensions.gnome.org/extension/15/alternatetab/ miniaturas con alt-tab y facilidades
+- https://extensions.gnome.org/extension/977/recent-items/ últimos archivos accedidos
+- https://extensions.gnome.org/extension/826/suspend-button/ añadir botón para suspender
 - https://extensions.gnome.org/extension/8/places-status-indicator/
 - https://extensions.gnome.org/extension/7/removable-drive-menu/
 - https://extensions.gnome.org/extension/6/applications-menu/
