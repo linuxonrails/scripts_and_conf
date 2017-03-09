@@ -9,6 +9,7 @@
   - [Vim](#vim)
 - [Gnome-shell](#gnome-shell)
 - [NPM](#npm)
+ 
 
 ## Shell
 
@@ -241,4 +242,10 @@ gsettings set org.gnome.desktop.wm.preferences button-layout ':minimize,maximize
 # https://fettblog.eu/snippets/node.js/npm-without-sudo/
 npm config set prefix ~/npm
 export PATH="$PATH:$HOME/npm/bin" # en ~/.bashrc
+```
+
+Fix para problema frecuente (demasiados inodos en tareas watch) en Linux:
+
+```
+echo 524288 | sudo tee -a /proc/sys/fs/inotify/max_user_watches
 ```
