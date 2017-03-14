@@ -249,3 +249,17 @@ Fix para problema frecuente (demasiados inodos en tareas watch) en Linux:
 ```
 echo 524288 | sudo tee -a /proc/sys/fs/inotify/max_user_watches
 ```
+
+## Yarn
+
+https://yarnpkg.com/lang/en/docs/install/
+
+Fix para problema frecuente con `yarn test:watch`:
+
+Error: watch ENOSPC
+at errnoException (fs.js:1019:11)    
+
+```
+# https://github.com/gulpjs/gulp/issues/217#issuecomment-61039024
+echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
+```
