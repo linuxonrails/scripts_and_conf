@@ -9,6 +9,7 @@
   - [Vim](#vim)
 - [Gnome-shell](#gnome-shell)
 - [NPM](#npm)
+- [Yarn](#yarn)
  
 
 ## Shell
