@@ -201,6 +201,8 @@ apm install linter-flow
 apm install react
 ```
 
+Hints: teclas rápidas con fuzzy-finder: ctrl+t y ctrl+b
+
 <hr>
 
 ### vim
