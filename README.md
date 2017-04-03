@@ -199,6 +199,11 @@ apm install linter-flow
 # React plugin 
 # https://atom.io/packages/react
 apm install react
+
+# EditorConfig helps developers maintain consistent coding styles between different editors:
+# https://atom.io/packages/editorconfig
+# http://editorconfig.org/
+apm install editorconfig
 ```
 
 Hints: teclas rápidas con fuzzy-finder: ctrl+t y ctrl+b
