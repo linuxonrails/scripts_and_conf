@@ -248,6 +248,10 @@ Para cambiar con atajos de teclado a los escritorios 5 y 6:
 ```sh
 dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-5 "['<Primary>F5']"
 dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-6 "['<Primary>F6']"
+dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-7 "['<Primary>F7']"
+dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-8 "['<Primary>F8']"
+dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-9 "['<Primary>F9']"
+dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-10 "['<Primary>F10']"
 ```
 
 ## npm
