@@ -7,6 +7,7 @@
   - [Config. general](#config-general)
   - [Atom](#atom)
   - [Vim](#vim)
+  - [Visual Studio Code](#visual-studio-code)
 - [Gnome-shell](#gnome-shell)
 - [NPM](#npm)
 - [Yarn](#yarn)
@@ -220,6 +221,13 @@ endif
 set number
 set tabstop=2
 ```
+
+### Visual Studio Code
+
+https://code.visualstudio.com/
+
+...
+
 ## Gnome-shell
 
 ### How to move window buttons to right in Ubuntu 16.04
@@ -240,6 +248,8 @@ gsettings set org.gnome.desktop.wm.preferences button-layout ':minimize,maximize
 - https://extensions.gnome.org/extension/8/places-status-indicator/
 - https://extensions.gnome.org/extension/7/removable-drive-menu/
 - https://extensions.gnome.org/extension/6/applications-menu/
+- https://extensions.gnome.org/extension/21/workspace-indicator/
+- https://extensions.gnome.org/extension/1036/extensions/
 
 ### Shortkeys
 
