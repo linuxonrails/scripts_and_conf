@@ -228,6 +228,37 @@ https://code.visualstudio.com/
 
 ...
 
+Extensiones instaladas:
+
+* ColdFusion
+* EditorConfig for VS Code
+* ESLint
+* Flow Language Support
+* HTML Snippets
+* jsx
+* jsx-snippets
+* React Redux ES6 Snippets
+* react-beautify
+* React/Redux/react-router Snippets
+* TSLint
+* Useful React Snippets
+* npm Intellisense
+* Debugger for Chrome
+
+
+TODO: 
+
+Actualizar la configuración de eslint tras instalar los plugins para que vuelva a pillar los ficheros *.jsx:
+
+{
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "Javascript React",
+        "jsx"
+    ]
+}
+
 ## Gnome-shell
 
 ### How to move window buttons to right in Ubuntu 16.04
