@@ -244,6 +244,9 @@ Extensiones instaladas:
 * Useful React Snippets
 * npm Intellisense
 * Debugger for Chrome
+* Active File in StatusBar https://marketplace.visualstudio.com/items?itemName=RoscoP.ActiveFileInStatusBar
+
+`ext install ActiveFileInStatusBar`
 
 
 TODO: 
