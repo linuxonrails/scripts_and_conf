@@ -248,6 +248,7 @@ Extensiones instaladas:
 
 `ext install ActiveFileInStatusBar`
 
+* Sort lines https://github.com/Tyriar/vscode-sort-lines
 
 TODO: 
 
