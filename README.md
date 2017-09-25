@@ -230,25 +230,23 @@ https://code.visualstudio.com/
 
 Extensiones instaladas:
 
+* Active File in StatusBar https://marketplace.visualstudio.com/items?itemName=RoscoP.ActiveFileInStatusBar `ext install ActiveFileInStatusBar`
+* change-case https://marketplace.visualstudio.com/items?itemName=wmaurer.change-case `ext install change-case`
 * ColdFusion
+* Debugger for Chrome
 * EditorConfig for VS Code
 * ESLint
 * Flow Language Support
 * HTML Snippets
 * jsx
 * jsx-snippets
-* React Redux ES6 Snippets
+* npm Intellisense
 * react-beautify
+* React Redux ES6 Snippets
 * React/Redux/react-router Snippets
+* Sort lines https://github.com/Tyriar/vscode-sort-lines
 * TSLint
 * Useful React Snippets
-* npm Intellisense
-* Debugger for Chrome
-* Active File in StatusBar https://marketplace.visualstudio.com/items?itemName=RoscoP.ActiveFileInStatusBar
-
-`ext install ActiveFileInStatusBar`
-
-* Sort lines https://github.com/Tyriar/vscode-sort-lines
 
 TODO: 
 
