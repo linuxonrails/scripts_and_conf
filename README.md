@@ -252,21 +252,21 @@ TODO:
 
 Actualizar la configuración de eslint tras instalar los plugins para que vuelva a pillar los ficheros *.jsx:
 
+```json
 {
-  {
-    "eslint.validate": [
-      "javascript",
-      "javascriptreact",
-      "Javascript React",
-      "jsx"
-    ],
-    "editor.wordWrap": "on",
-    "editor.formatOnSave": true,
-    "editor.renderWhitespace": "boundary",
-    "window.zoomLevel": 0,
-    "workbench.editor.enablePreview": false
-  }
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "Javascript React",
+    "jsx"
+  ],
+  "editor.wordWrap": "on",
+  "editor.formatOnSave": true,
+  "editor.renderWhitespace": "boundary",
+  "window.zoomLevel": 0,
+  "workbench.editor.enablePreview": false
 }
+```
 
 `"workbench.editor.enablePreview": false` se utiliza que los ficheros los abra siempre en un nuevo tab.
 
