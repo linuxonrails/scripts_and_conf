@@ -2,14 +2,15 @@
 
 - [Shell](#shell)
 - [Git](#git)
-- [Navegadores](#navegadores)
-- [Editores](#editores)
+- [Gnome-shell](#gnome-shell)
+- [Editors](#editores)
   - [Config. general](#config-general)
   - [Atom](#atom)
   - [Vim](#vim)
   - [Visual Studio Code](#visual-studio-code)
-- [Gnome-shell](#gnome-shell)
+- [Navigators](#navegadores)
 - [NPM](#npm)
+- [Ubuntu] (#ubuntu)
 - [Yarn](#yarn)
  
 
@@ -322,6 +323,17 @@ Fix para problema frecuente (demasiados inodos en tareas watch) en Linux:
 
 ```
 echo 524288 | sudo tee -a /proc/sys/fs/inotify/max_user_watches
+```
+
+## Ubuntu
+
+* Like a bunch of other questions, I can't run apt-get update sometimes. Restarting or waiting for a while makes the problem go away. I never have issues pinging or visiting the respective URLs in a browser.
+
+FIX:
+
+```sh
+# https://askubuntu.com/questions/926302/why-cant-apt-resolve-names
+echo 'Acquire::ForceIPv4 "true";' | sudo tee /etc/apt/apt.conf.d/99force-ipv4
 ```
 
 ## Yarn
