@@ -70,7 +70,7 @@ https://githowto.com/aliases
 
 <hr>
 
-## Navegadores
+## Navigators
 
 ### Google Chrome
 
@@ -294,6 +294,7 @@ gsettings set org.gnome.desktop.wm.preferences button-layout ':minimize,maximize
 - https://extensions.gnome.org/extension/6/applications-menu/
 - https://extensions.gnome.org/extension/21/workspace-indicator/
 - https://extensions.gnome.org/extension/1036/extensions/
+- https://extensions.gnome.org/extension/600/launch-new-instance/ Always launch a new instance when clicking in the dash or the application view.
 
 ### Shortkeys
 
