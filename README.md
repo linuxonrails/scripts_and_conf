@@ -232,6 +232,7 @@ https://code.visualstudio.com/
 Extensiones instaladas:
 
 * Active File in StatusBar https://marketplace.visualstudio.com/items?itemName=RoscoP.ActiveFileInStatusBar `ext install ActiveFileInStatusBar`
+* Auto Import https://marketplace.visualstudio.com/items?itemName=steoates.autoimport `ext install steoates.autoimport`
 * change-case https://marketplace.visualstudio.com/items?itemName=wmaurer.change-case `ext install change-case`
 * ColdFusion
 * Debugger for Chrome
@@ -242,12 +243,16 @@ Extensiones instaladas:
 * jsx
 * jsx-snippets
 * npm Intellisense
+* Path Autocomplete https://marketplace.visualstudio.com/items?itemName=ionutvmi.path-autocomplete `ext install ionutvmi.path-autocomplete`
 * react-beautify
 * React Redux ES6 Snippets
 * React/Redux/react-router Snippets
 * Sort lines https://github.com/Tyriar/vscode-sort-lines
 * TSLint
 * Useful React Snippets
+
+> Launch VS Code Quick Open (Ctrl+P), paste the command `ext install extensionName`, and press enter.
+
 
 TODO: 
 
